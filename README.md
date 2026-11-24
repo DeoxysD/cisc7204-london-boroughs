@@ -61,3 +61,18 @@ This repository is the project linked from [the portfolio site](https://deoxysd.
 ![Crime rate and house price](figures/crime_vs_house_price.png)
 
 ![Earnings on both sides](figures/earnings_on_both_sides.png)
+
+
+## Full project archive
+
+The file submitted on Moodle is `cisc7204-Class_A-Team_05-FinalProjectArchive.zip`. The same pieces are in this repository:
+
+| Path | Contents |
+| --- | --- |
+| `notebooks/CISC7204-Team05-Analysis.ipynb` | Full run: panel, denominator sweep, inner/outer split, offence types, six figures |
+| `CODEBOOK.md` | Sample rules, variables, and what each figure is for |
+| `data/DESCRIPTION.md` | Short description of each table |
+| `data/MPS_Borough_Level_Crime_Historical.csv` | Borough offence counts, including 2016–2018 |
+| `figures/analysis/` | The six figures the notebook writes |
+
+Each storytelling figure in that notebook is followed by a markdown cell on Cairo’s checks: truthful, functional, beautiful, and insightful. `notebooks/01_eda.ipynb` remains the shorter walkthrough of the baseline result. Install with the same `requirements.txt`; the full notebook does not call SciPy.
