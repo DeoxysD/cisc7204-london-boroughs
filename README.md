@@ -41,7 +41,7 @@ The result describes 32 boroughs in 2016–2018. It does not show that crime cau
 | `data/housing_in_london_yearly.csv` | Annual earnings, population, jobs, and dwellings |
 | `data/borough_summary_2016_2018.csv` | The 32-borough table the figures use |
 | `figures/crime_vs_house_price.png` | Crime rate against average price |
-| `figures/earnings_on_both_sides.png` | Four Spearman correlations on the same boroughs |
+| `figures/earnings_on_both_sides.png` | The same boroughs, including the crime–price correlation after earnings are removed (ρ = 0.24) |
 
 ## How to run
 
